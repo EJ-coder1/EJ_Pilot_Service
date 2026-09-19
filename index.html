@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#050810">
+  <meta name="description" content="EJ Pilot Service — PRO ML Pilot Service. Hero selection, clear pricing, GCash payment and direct Messenger ordering.">
+  <title>EJ Pilot Service — PRO ML Pilot Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="site-bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+    <div class="bg-noise"></div>
+  </div>
+
+  <!-- NAV -->
+  <header class="nav" id="top">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top" aria-label="EJ Pilot Service — home">
+        <span class="nav-logo" aria-hidden="true">EJ</span>
+        <span class="nav-brand-text"><strong>EJ</strong> Pilot Service</span>
+      </a>
+      <nav class="nav-links" aria-label="Site navigation">
+        <a href="#services">How it works</a>
+        <a href="#heroes">Heroes</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#proof">Proof</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="nav-cta" href="#order">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 7h12M7 1l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Build Order
+      </a>
+      <button class="nav-hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#services" class="mm-link">How it works</a>
+        <a href="#heroes" class="mm-link">Heroes</a>
+        <a href="#pricing" class="mm-link">Pricing</a>
+        <a href="#proof" class="mm-link">Proof</a>
+        <a href="#faq" class="mm-link">FAQ</a>
+        <a href="#order" class="mm-cta">Build My Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="hero-section">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>EJ PILOT SERVICE</span>
+            <span class="sep" aria-hidden="true">·</span>
+            <span>OPEN FOR ORDERS</span>
+          </div>
+          <h1 class="hero-headline">
+            <span class="line-1">PRO <em>ML</em></span>
+            <span class="line-2">PILOT</span>
+            <span class="line-3">SERVICE</span>
+          </h1>
+          <p class="hero-sub">Pick your rank target. Choose your hero. Send the order. Get ranked up.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#order">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1v14M1 8h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              Start an Order
+            </a>
+            <a class="btn btn-ghost" href="#heroes">
+              Browse Heroes
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 1v12M1 7l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7l3.5 3.5 6.5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Clear pricing
+            </div>
+            <div class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7l3.5 3.5 6.5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Direct Messenger contact
+            </div>
+            <div class="trust-item">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7l3.5 3.5 6.5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              133 hero choices
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-stage" id="heroStage" aria-label="Featured heroes">
+          <div class="stage-frame">
+            <div class="stage-main-slot">
+              <div class="stage-hero-img-wrap">
+                <img id="stageImg1" class="stage-hero-img" src="" alt="Featured MLBB hero" loading="eager">
+                <div class="stage-img-overlay"></div>
+              </div>
+              <div class="stage-info">
+                <span class="stage-role" id="stageRole1">Assassin</span>
+                <strong class="stage-name" id="stageName1">Loading...</strong>
+              </div>
+              <div class="stage-corner-tl" aria-hidden="true"></div>
+              <div class="stage-corner-br" aria-hidden="true"></div>
+            </div>
+            <div class="stage-side-slots">
+              <div class="stage-side-slot">
+                <img id="stageImg2" src="" alt="MLBB hero" loading="lazy">
+                <span id="stageName2" class="stage-side-name">—</span>
+              </div>
+              <div class="stage-side-slot">
+                <img id="stageImg3" src="" alt="MLBB hero" loading="lazy">
+                <span id="stageName3" class="stage-side-name">—</span>
+              </div>
+            </div>
+            <div class="stage-label" aria-hidden="true">HERO SELECT</div>
+          </div>
+          <div class="stage-scan" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>RANK BOOST</span><span class="tick-dot">✦</span>
+          <span>HERO SELECTION</span><span class="tick-dot">✦</span>
+          <span>MYTHICAL IMMORTAL</span><span class="tick-dot">✦</span>
+          <span>GCASH PAYMENT</span><span class="tick-dot">✦</span>
+          <span>MESSENGER ORDERING</span><span class="tick-dot">✦</span>
+          <span>133 HEROES</span><span class="tick-dot">✦</span>
+          <span>RANK BOOST</span><span class="tick-dot">✦</span>
+          <span>HERO SELECTION</span><span class="tick-dot">✦</span>
+          <span>MYTHICAL IMMORTAL</span><span class="tick-dot">✦</span>
+          <span>GCASH PAYMENT</span><span class="tick-dot">✦</span>
+          <span>MESSENGER ORDERING</span><span class="tick-dot">✦</span>
+          <span>133 HEROES</span><span class="tick-dot">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">HOW IT WORKS</span>
+          <h2>Four steps. No guessing.</h2>
+          <p>Clear process from start to finish. No hidden steps, no vague timelines.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card reveal">
+            <div class="step-num">01</div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="3" y="3" width="22" height="22" rx="4" stroke="currentColor" stroke-width="1.8"/><path d="M8 14h12M8 9h7M8 19h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Choose rank</h3>
+            <p>Set your current rank and target rank. Select your star count or points.</p>
+          </div>
+          <div class="step-card reveal">
+            <div class="step-num">02</div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="10" r="5" stroke="currentColor" stroke-width="1.8"/><path d="M5 25c0-4.97 4.03-9 9-9s9 4.03 9 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Choose hero</h3>
+            <p>Browse all 133 heroes with real portraits. Search or filter by role.</p>
+          </div>
+          <div class="step-card reveal">
+            <div class="step-num">03</div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M7 14l4 4 10-10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="3" width="22" height="22" rx="4" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <h3>Build order</h3>
+            <p>Review your estimate. Add your nickname and account details.</p>
+          </div>
+          <div class="step-card reveal">
+            <div class="step-num">04</div>
+            <div class="step-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M4 22L9.5 8l4.5 7 4-4 5.5 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Message &amp; confirm</h3>
+            <p>Send the generated order to Messenger. Confirm price and schedule before paying.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER BUILDER -->
+    <section class="section order-section" id="order">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">ORDER BUILDER</span>
+          <h2>Build your order</h2>
+          <p>Quote stays local in your browser. No passwords, no OTPs, no payment PINs collected here.</p>
+        </div>
+
+        <div class="order-layout">
+          <!-- Form -->
+          <div class="order-form-card reveal" id="orderForm">
+            <div class="form-tabs" role="tablist" aria-label="Order steps" id="formTabs">
+              <button class="ftab active" type="button" data-step-tab="1" role="tab" aria-selected="true">01 RANK</button>
+              <span class="ftab-sep" aria-hidden="true" id="heroTabSep"></span>
+              <button class="ftab" type="button" data-step-tab="2" role="tab" aria-selected="false" id="heroTab">02 HERO</button>
+              <span class="ftab-sep" aria-hidden="true"></span>
+              <button class="ftab" type="button" data-step-tab="3" role="tab" aria-selected="false" id="detailsTab">03 DETAILS</button>
+            </div>
+
+            <!-- STEP 1: RANK + CALCULATOR -->
+            <div class="step-pane active" id="orderStep1" data-step-pane="1">
+              <div class="step-intro">
+                <span class="step-kicker">STEP 1 OF 3</span>
+                <strong>Set your rank target &amp; get a price</strong>
+                <p>Fill in the fields below. The calculator updates live.</p>
+              </div>
+
+              <!-- MMR Server — card-style selector -->
+              <div class="calc-field-group">
+                <span class="calc-group-label">MMR Server</span>
+                <div class="mmr-cards" role="radiogroup" aria-label="MMR Server">
+                  <button class="mmr-card active" type="button" data-mmr="ph" role="radio" aria-checked="true">
+                    <div class="mmr-card-icon">
+                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M5 11a9 9 0 0 0 6 8.5M5 11a9 9 0 0 1 6-8.5M17 11a9 9 0 0 1-6 8.5M17 11a9 9 0 0 0-6-8.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><path d="M2 11h18" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="mmr-card-text">
+                      <strong>Philippines</strong>
+                      <span>PH server pool</span>
+                    </div>
+                    <div class="mmr-card-check" aria-hidden="true">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7l3 3 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                  </button>
+                  <button class="mmr-card" type="button" data-mmr="global" role="radio" aria-checked="false">
+                    <div class="mmr-card-icon">
+                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M2 11h18M11 2c-2 3-3 5.8-3 9s1 6 3 9M11 2c2 3 3 5.8 3 9s-1 6-3 9" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="mmr-card-text">
+                      <strong>Global</strong>
+                      <span>All servers · +30% rate</span>
+                    </div>
+                    <div class="mmr-card-check" aria-hidden="true">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7l3 3 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                  </button>
+                  <button class="mmr-card" type="button" data-mmr="none" role="radio" aria-checked="false">
+                    <div class="mmr-card-icon">
+                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M8 11h6M11 8v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M15.5 6.5L6.5 15.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                    </div>
+                    <div class="mmr-card-text">
+                      <strong>Don't specify</strong>
+                      <span>Let EJ decide</span>
+                    </div>
+                    <div class="mmr-card-check" aria-hidden="true">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2.5 7l3 3 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+
+              <!-- MMR Top Target — only shown for PH or Global -->
+              <div id="mmrTopWrap" hidden style="margin-top:10px;margin-bottom:4px;">
+                <span class="calc-group-label">Top rank target <span style="color:var(--text-3);font-weight:400;">(optional · max Top 99)</span></span>
+                <div class="mmr-top-row">
+                  <div class="mmr-top-prefix">Top</div>
+                  <input
+                    id="mmrTopInput"
+                    type="number"
+                    min="1"
+                    max="99"
+                    inputmode="numeric"
+                    placeholder="e.g. 50"
+                    class="mmr-top-input"
+                    aria-label="Top rank number target (1-99)"
+                  >
+                  <button id="mmrTopClear" type="button" class="mmr-top-clear" aria-label="Clear top target">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                  </button>
+                </div>
+                <p class="mmr-top-hint">Leave blank if you don't have a specific top rank target.</p>
+              </div>
+
+              <!-- Rank selector — custom visual cards instead of native selects -->
+              <div class="rank-selector-group">
+                <div class="rank-selector-label">Current rank</div>
+                <div class="rank-selector-row" id="currentRankCards" role="radiogroup" aria-label="Current rank"></div>
+                <select id="currentRank" class="rank-hidden-select" required aria-hidden="true" tabindex="-1"></select>
+              </div>
+
+              <div class="rank-selector-group" style="margin-top:18px;">
+                <div class="rank-selector-label">Target rank</div>
+                <div class="rank-selector-row" id="targetRankCards" role="radiogroup" aria-label="Target rank"></div>
+                <select id="targetRank" class="rank-hidden-select" required aria-hidden="true" tabindex="-1"></select>
+              </div>
+
+              <!-- Stars/points inputs -->
+              <div class="form-row" style="margin-top:14px;">
+                <label class="field-label" id="currentStarsWrap">
+                  Current stars
+                  <input id="currentStars" type="number" min="0" max="999" value="0" inputmode="numeric">
+                </label>
+                <label class="field-label" id="targetStarsWrap">
+                  Target stars
+                  <input id="stars" type="number" min="0" max="999" value="1" inputmode="numeric" required>
+                </label>
+              </div>
+
+              <!-- Preferred role -->
+              <div class="form-row">
+                <label class="field-label">
+                  Preferred role
+                  <select id="preferredRole">
+                    <option>No preference</option>
+                    <option>Tank</option>
+                    <option>Fighter</option>
+                    <option>Assassin</option>
+                    <option>Mage</option>
+                    <option>Marksman</option>
+                    <option>Support</option>
+                  </select>
+                </label>
+                <div class="field-label">
+                  Hero preference
+                  <div class="hero-mode-row" role="radiogroup" aria-label="Hero preference">
+                    <button class="hero-mode-opt active" type="button" data-heromode="general" role="radio" aria-checked="true">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><circle cx="7.5" cy="5" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M2 14c0-3 2.5-5 5.5-5s5.5 2 5.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                      General
+                    </button>
+                    <button class="hero-mode-opt" type="button" data-heromode="specific" role="radio" aria-checked="false">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M7.5 1L9.3 5.5H14L10.4 8.2l1.4 4.5L7.5 10 3.1 12.7l1.4-4.5L1 5.5h4.7z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                      Specific Hero
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Specific hero dropdown (shown only when hero mode = specific) -->
+              <div id="specificHeroDropWrap" hidden>
+                <label class="field-label" style="margin-bottom:14px;">
+                  Choose hero
+                  <select id="specificHeroDrop">
+                    <option value="">— select a hero —</option>
+                  </select>
+                </label>
+              </div>
+
+              <!-- Rank info bar -->
+              <div class="rank-info-bar" id="rankInfoBar" aria-live="polite"></div>
+
+              <!-- Live price breakdown -->
+              <div class="price-breakdown" id="priceBreakdown" aria-live="polite">
+                <div class="pb-row"><span>Base boost</span><strong id="pbBase">₱—</strong></div>
+                <div class="pb-row" id="pbHeroRow" hidden><span>Hero surcharge</span><strong id="pbHero">+₱0</strong></div>
+                <div class="pb-row" id="pbDiffRow" hidden><span>Difficulty surcharge</span><strong id="pbDiff">+₱0</strong></div>
+                <div class="pb-row" id="pbGlobalRow" hidden><span>Global MMR surcharge</span><strong id="pbGlobal">+₱0</strong></div>
+                <div class="pb-divider"></div>
+                <div class="pb-row pb-total"><span>Estimated total</span><strong id="pbTotal">₱—</strong></div>
+              </div>
+
+              <div class="step-actions">
+                <button class="btn btn-primary btn-full" type="button" id="nextToHero" id="nextStep1Btn">
+                  <span id="nextStep1Label">Choose a Hero</span>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M3 8h9M8.5 4.5L12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+                        <!-- STEP 2: HERO -->
+            <div class="step-pane" id="orderStep2" data-step-pane="2" hidden>
+              <div class="step-intro">
+                <span class="step-kicker">STEP 2 OF 3</span>
+                <strong>Choose your hero</strong>
+                <p>Pick one hero below. Your selection will appear in the order summary.</p>
+              </div>
+
+              <div class="step-selected-hero" id="stepSelectedHero">
+                <div class="step-selected-thumb" aria-hidden="true"><span>?</span></div>
+                <div>
+                  <span>Current selection</span>
+                  <strong>No hero selected</strong>
+                </div>
+              </div>
+
+              <div class="step-actions two">
+                <button class="btn btn-ghost btn-full" type="button" id="backToRank">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M13 8H4M7.5 4.5L4 8l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Back
+                </button>
+                <button class="btn btn-primary btn-full" type="button" id="nextToDetails" disabled>
+                  Continue to Details
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M3 8h9M8.5 4.5L12 8l-3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 3: DETAILS -->
+            <div class="step-pane" id="orderStep3" data-step-pane="3" hidden>
+              <div class="step-intro">
+                <span class="step-kicker">STEP 3 OF 3</span>
+                <strong>Enter your order details</strong>
+                <p>Review everything below before opening Facebook and sending your order.</p>
+              </div>
+
+              <div class="form-row">
+                <label class="field-label">
+                  Name / nickname
+                  <input id="customerName" maxlength="40" autocomplete="name" placeholder="Your in-game name" required>
+                </label>
+                <label class="field-label">
+                  MLBB Account ID
+                  <input id="mlId" maxlength="30" inputmode="numeric" placeholder="123456789" required>
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label class="field-label">
+                  Server ID
+                  <input id="server" maxlength="10" inputmode="numeric" placeholder="1234" required>
+                </label>
+                <div class="field-label">
+                  Preferred schedule
+                  <!-- hidden select keeps the value for the order message -->
+                  <select id="schedule" class="rank-hidden-select" aria-hidden="true" tabindex="-1">
+                    <option value="Any available time">Any available time</option>
+                    <option value="Today">Today</option>
+                    <option value="Tonight">Tonight</option>
+                    <option value="Specific time to discuss">Specific time to discuss</option>
+                  </select>
+                  <div class="schedule-cards" role="radiogroup" aria-label="Preferred schedule">
+                    <button class="schedule-card active" type="button" data-schedule="Any available time" role="radio" aria-checked="true">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><circle cx="7.5" cy="7.5" r="6" stroke="currentColor" stroke-width="1.4"/><path d="M7.5 4v3.5l2 2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                      Any time
+                    </button>
+                    <button class="schedule-card" type="button" data-schedule="Today" role="radio" aria-checked="false">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><rect x="2" y="3" width="11" height="10" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M5 1v2M10 1v2M2 6h11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                      Today
+                    </button>
+                    <button class="schedule-card" type="button" data-schedule="Tonight" role="radio" aria-checked="false">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M12 9.5A6 6 0 1 1 5.5 3 4.5 4.5 0 0 0 12 9.5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+                      Tonight
+                    </button>
+                    <button class="schedule-card" type="button" data-schedule="Specific time to discuss" role="radio" aria-checked="false">
+                      <svg width="15" height="15" viewBox="0 0 15 15" fill="none" aria-hidden="true"><path d="M7.5 1v3M7.5 11v3M1 7.5h3M11 7.5h3M3.3 3.3l2.1 2.1M9.6 9.6l2.1 2.1M3.3 11.7l2.1-2.1M9.6 5.4l2.1-2.1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+                      Discuss time
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="final-review" id="finalReview">
+                <div class="review-row"><span>Rank</span><strong id="reviewRank">Epic → Legend</strong></div>
+                <div class="review-row"><span>Stars needed</span><strong id="reviewStars">1</strong></div>
+                <div class="review-row"><span>MMR Server</span><strong id="reviewMMR">Philippines</strong></div>
+                <div class="review-row"><span>Role</span><strong id="reviewRole">No preference</strong></div>
+                <div class="review-row"><span>Hero</span><strong id="reviewHero">No hero selected</strong></div>
+                <div class="review-row total"><span>Estimated total</span><strong id="reviewTotal">₱—</strong></div>
+              </div>
+
+              <div class="safety-notice">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M8 1.5L2 4v4c0 3.3 2.5 6.4 6 7 3.5-.6 6-3.7 6-7V4L8 1.5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                  <path d="M5.5 8l1.5 1.5L10.5 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <p>Only share account information you are comfortable sending. <strong>Never include passwords, OTPs, recovery codes, or payment PINs.</strong></p>
+              </div>
+
+              <div class="step-actions two">
+                <button class="btn btn-ghost btn-full" type="button" id="backToHero">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M13 8H4M7.5 4.5L4 8l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Back to Hero
+                </button>
+                <button class="btn btn-primary btn-full" type="button" id="messageOrder">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                    <path d="M1 1l14 7-14 7V9.5l10-1.5-10-1.5V1z" fill="currentColor"/>
+                  </svg>
+                  Open Facebook &amp; Copy Order
+                </button>
+              </div>
+
+              <p class="message-helper" id="messageHelper">
+                Your full order will be copied first. Facebook will then open so you can tap <strong>Message</strong> and paste it.
+              </p>
+            </div>
+          </div>
+
+          <!-- Summary -->
+          <aside class="order-summary reveal" aria-label="Order summary">
+            <div class="summary-header">
+              <span class="kicker">LIVE ESTIMATE</span>
+              <div class="est-price" id="estimate">₱—</div>
+              <p class="est-note" id="estimateNote">Set ranks to see estimate</p>
+            </div>
+
+            <div class="summary-divider"></div>
+
+            <div class="summary-lines">
+              <div class="sum-row"><span>From</span><strong id="summaryCurrent">—</strong></div>
+              <div class="sum-row"><span>To</span><strong id="summaryTarget">—</strong></div>
+              <div class="sum-row"><span>Stars needed</span><strong id="summaryStars">—</strong></div>
+              <div class="sum-row"><span>Server</span><strong id="summaryMMR">Philippines</strong></div>
+            </div>
+
+            <div class="summary-divider"></div>
+
+            <div class="chosen-hero" id="chosenHero">
+              <div class="chosen-thumb" aria-hidden="true">
+                <span class="no-hero-icon">?</span>
+              </div>
+              <div class="chosen-info">
+                <span>Hero preference</span>
+                <strong>No hero selected</strong>
+              </div>
+            </div>
+
+            <p class="sum-hint">Select a hero from the list below</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO SELECTOR -->
+    <section class="section heroes-section" id="heroes">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">ALL HEROES</span>
+          <h2>Pick your hero.</h2>
+          <p>All 133 heroes with real portraits. Search by name or filter by role.</p>
+        </div>
+
+        <div class="hero-browser reveal">
+          <div class="hero-flow-hint" id="heroFlowHint" hidden>
+            <div>
+              <span class="step-kicker">STEP 2 OF 3</span>
+              <strong>Choose one hero to continue.</strong>
+            </div>
+            <button type="button" class="btn btn-ghost-sm" id="backToOrderFromHeroes">Back to Order</button>
+          </div>
+
+          <div class="browser-controls">
+            <label class="search-wrap" aria-label="Search heroes">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <input id="heroSearch" type="search" placeholder="Search hero..." autocomplete="off">
+            </label>
+            <span class="hero-tally"><b id="heroCount">133</b> heroes</span>
+          </div>
+
+          <div class="role-pills" role="tablist" aria-label="Filter by role">
+            <button class="role-pill active" data-role="All" role="tab" aria-selected="true">All</button>
+            <button class="role-pill" data-role="Tank" role="tab" aria-selected="false">
+              <span class="role-dot role-tank" aria-hidden="true"></span>Tank
+            </button>
+            <button class="role-pill" data-role="Fighter" role="tab" aria-selected="false">
+              <span class="role-dot role-fighter" aria-hidden="true"></span>Fighter
+            </button>
+            <button class="role-pill" data-role="Assassin" role="tab" aria-selected="false">
+              <span class="role-dot role-assassin" aria-hidden="true"></span>Assassin
+            </button>
+            <button class="role-pill" data-role="Mage" role="tab" aria-selected="false">
+              <span class="role-dot role-mage" aria-hidden="true"></span>Mage
+            </button>
+            <button class="role-pill" data-role="Marksman" role="tab" aria-selected="false">
+              <span class="role-dot role-marksman" aria-hidden="true"></span>Marksman
+            </button>
+            <button class="role-pill" data-role="Support" role="tab" aria-selected="false">
+              <span class="role-dot role-support" aria-hidden="true"></span>Support
+            </button>
+          </div>
+
+          <div class="hero-grid" id="heroGrid" aria-live="polite" aria-label="Hero list"></div>
+
+          <p class="asset-credit">Hero portraits: community-maintained MLBB asset repository. All characters and trademarks remain property of their respective rights holders.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">PRICING</span>
+          <h2>Clear rates. No hidden fees.</h2>
+          <p>Update the single pricing config in script.js — cards and the order calculator update together.</p>
+        </div>
+        <div class="pricing-grid" id="pricingGrid"></div>
+      </div>
+    </section>
+
+    <!-- GCASH PAYMENT -->
+    <section class="section payment-section" id="payment">
+      <div class="container">
+        <div class="payment-block reveal">
+          <div class="payment-copy">
+            <span class="kicker">PAYMENT</span>
+            <h2>GCash — pay after confirmation only.</h2>
+            <p>Do not send any payment until the final price and schedule has been confirmed through Messenger.</p>
+          </div>
+          <div class="gcash-card">
+            <div class="gcash-logo-row">
+              <div class="gcash-badge">GCash</div>
+              <span class="gcash-label">Philippines</span>
+            </div>
+            <span class="gcash-field-label">GCash Number</span>
+            <div class="gcash-number-row">
+              <strong id="gcashNumber" class="gcash-num">09XXXXXXXXX</strong>
+              <button class="btn btn-icon" id="copyGcash" type="button" aria-label="Copy GCash number">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="5" y="5" width="9" height="9" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M11 5V3a2 2 0 00-2-2H3a2 2 0 00-2 2v6a2 2 0 002 2h2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                Copy
+              </button>
+            </div>
+            <button class="btn btn-ghost-sm" id="showQr" type="button">Show QR Code</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section class="section proof-section" id="proof">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">PROOF / VOUCHES</span>
+          <h2>Results speak.</h2>
+          <p>Real screenshots from completed orders. Tap any card to preview.</p>
+        </div>
+        <div class="proof-grid">
+          <button class="proof-card reveal" data-proof="images/proofs/proof1.jpg" aria-label="View proof 1">
+            <div class="proof-placeholder-art" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="3" y="6" width="26" height="20" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="10" cy="13" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 22l7-6 5 5 4-4 9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span class="proof-num">PROOF 01</span>
+            <span class="proof-tap">Tap to preview</span>
+          </button>
+          <button class="proof-card reveal" data-proof="images/proofs/proof2.jpg" aria-label="View proof 2">
+            <div class="proof-placeholder-art" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="3" y="6" width="26" height="20" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="10" cy="13" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 22l7-6 5 5 4-4 9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span class="proof-num">PROOF 02</span>
+            <span class="proof-tap">Tap to preview</span>
+          </button>
+          <button class="proof-card reveal" data-proof="images/proofs/proof3.jpg" aria-label="View proof 3">
+            <div class="proof-placeholder-art" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="3" y="6" width="26" height="20" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="10" cy="13" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 22l7-6 5 5 4-4 9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span class="proof-num">PROOF 03</span>
+            <span class="proof-tap">Tap to preview</span>
+          </button>
+          <button class="proof-card reveal" data-proof="images/proofs/proof4.jpg" aria-label="View proof 4">
+            <div class="proof-placeholder-art" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><rect x="3" y="6" width="26" height="20" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="10" cy="13" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 22l7-6 5 5 4-4 9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <span class="proof-num">PROOF 04</span>
+            <span class="proof-tap">Tap to preview</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- RULES + SAFETY -->
+    <section class="section info-section">
+      <div class="container">
+        <div class="info-pair">
+          <div class="info-card reveal">
+            <span class="kicker">RULES</span>
+            <h2>Keep the order clean.</h2>
+            <ul class="rule-list">
+              <li>Confirm rank, stars, hero, schedule and final price first.</li>
+              <li>Do not change account information while the pilot is active.</li>
+              <li>Do not queue or play on the account while the pilot is active.</li>
+              <li>Special requests must be agreed before the order starts.</li>
+              <li>Timing may vary with queues, match conditions and availability.</li>
+            </ul>
+          </div>
+          <div class="info-card reveal">
+            <span class="kicker">ACCOUNT SAFETY</span>
+            <h2>Protect yourself.</h2>
+            <ul class="rule-list">
+              <li>This website does not store passwords or any sensitive credentials.</li>
+              <li>Never share OTPs, recovery codes, or payment PINs.</li>
+              <li>Only share account information through a channel you trust.</li>
+              <li>EJ Pilot Service is an independent service and is not affiliated with Moonton.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">FAQ</span>
+          <h2>Common questions.</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>How do I place an order?</summary>
+            <p>Build the order using the form above — set your ranks, choose a hero, add your details — then hit "Send to Messenger" to send the generated order directly to us.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How does the pilot process work?</summary>
+            <p>After confirming your order details and final price through Messenger, you share the account access needed to play ranked games. The pilot plays matches on your behalf using your preferred hero and role.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I choose any hero?</summary>
+            <p>Yes. The picker lists all 133 heroes in the current dataset. Confirm your preferred hero and any specific conditions before the order starts.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Are the website prices final?</summary>
+            <p>No. The calculator is an estimate only. Always confirm the actual total, schedule and conditions through Messenger before paying anything.</p>
+          </details>
+          <details class="faq-item">
+            <summary>When do I pay?</summary>
+            <p>Payment is made only after the final quote is confirmed via Messenger. Never pay before confirming price and schedule.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How long does an order take?</summary>
+            <p>Timing depends on rank tier, stars required, queue conditions and schedule. Confirm expected timing during the Messenger conversation.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What information should I NOT send?</summary>
+            <p>Never send your account password, OTP/one-time PIN, recovery code, or GCash/payment PIN to anyone — including through Messenger.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I receive updates?</summary>
+            <p>All updates and communication are handled directly through Messenger. Keep notifications on so you don't miss any status updates during the order.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What is the Global vs Philippines MMR difference?</summary>
+            <p>Global MMR means your account competes against international players across all servers. This tends to be more competitive than the Philippine server pool, so Global boosting carries a higher surcharge.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Why does hero difficulty affect the price?</summary>
+            <p>High-difficulty heroes — Fanny, Ling, Gusion, Chou, etc. — require precise mechanics and deeper game knowledge. This increases piloting effort significantly, which is reflected in the price.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta" id="contact">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <span class="kicker">EJ PILOT SERVICE</span>
+          <h2>Ready to rank up?</h2>
+          <p>Build your order in under a minute, then send it straight to Messenger for confirmation.</p>
+          <a href="#order" class="btn btn-primary btn-lg">
+            Build My Order
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M1 8h14M9 2l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <p class="cta-fine">Independent service · Verify final price before any payment</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="nav-logo" aria-hidden="true">EJ</span>
+          <div>
+            <strong>EJ Pilot Service</strong>
+            <span>PRO ML PILOT SERVICE</span>
+          </div>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#services">How it works</a>
+          <a href="#heroes">Heroes</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#proof">Proof</a>
+          <a href="#faq">FAQ</a>
+          <a href="#order">Build Order</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <small>© 2026 EJ Pilot Service · Independent service · Not affiliated with Moonton</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile bottom bar -->
+  <nav class="mobile-bar" aria-label="Quick navigation">
+    <a href="#heroes">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="6" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M2 17c0-3.87 3.13-7 7-7s7 3.13 7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      Heroes
+    </a>
+    <a href="#pricing">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="2" y="4" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M9 7v4M7 9h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      Prices
+    </a>
+    <a href="#order" class="mbar-main">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M1 17L5 5l4 6 3-3 5 9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Order
+    </a>
+    <a href="#proof">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><rect x="2" y="3" width="14" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M5 9l2.5 2.5L13 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Proof
+    </a>
+    <a href="#faq">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M9 12v-1M9 6a2 2 0 011.5 3.3L9 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      FAQ
+    </a>
+  </nav>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- QR Modal -->
+  <div class="modal hidden" id="qrModal" role="dialog" aria-modal="true" aria-labelledby="qrTitle">
+    <div class="modal-box">
+      <button class="modal-close" data-close aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 2l14 14M16 2L2 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <span class="kicker">GCASH QR</span>
+      <h3 id="qrTitle">Scan to pay</h3>
+      <div class="qr-area">
+        <div class="qr-placeholder-box">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="8" y="8" width="8" height="8" fill="currentColor"/><rect x="28" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="32" y="8" width="8" height="8" fill="currentColor"/><rect x="4" y="28" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2"/><rect x="8" y="32" width="8" height="8" fill="currentColor"/><rect x="28" y="28" width="4" height="4" fill="currentColor"/><rect x="36" y="28" width="4" height="4" fill="currentColor"/><rect x="28" y="36" width="4" height="8" fill="currentColor"/><rect x="36" y="36" width="8" height="4" fill="currentColor"/></svg>
+          <p>Place your QR image at<br><code>images/gcash-qr.png</code></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Proof preview modal -->
+  <div class="modal hidden" id="proofModal" role="dialog" aria-modal="true" aria-label="Proof preview">
+    <div class="proof-modal-box">
+      <button class="modal-close" data-close aria-label="Close preview">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M2 2l14 14M16 2L2 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <img id="proofPreview" src="" alt="Proof screenshot">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

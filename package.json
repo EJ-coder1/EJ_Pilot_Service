@@ -1,8 +1,0 @@
-{
-  "name": "ejpilot-service",
-  "version": "1.0.0",
-  "private": true,
-  "description": "EJ Pilot Service website with server-side order approval and protected payment details",
-  "scripts": {"start": "node server.js"},
-  "engines": {"node": ">=18"}
-}
